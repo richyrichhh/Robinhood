@@ -26,7 +26,7 @@ stock_instrument = robinhood_client.instruments('MSFT')[0]
 stock_quote = robinhood_client.quote_data('MSFT')
 
 # Market price
-print(stock_quote['last_trade_price']
+print(stock_quote['last_trade_price'])
 
 # If you want history price data:
 
